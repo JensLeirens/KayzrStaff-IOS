@@ -12,7 +12,3 @@ The IOS version of the KayzrStaff App
  
   then open the xcode workspace
   
-  **Tijdelijke login gegevens**
-  
-  Login: Mafken
-  Password: IOSTemp 
