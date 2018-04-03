@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="M4Y-Lb-cyx">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Today View Controller-->
+        <scene sceneID="cwh-vc-ff4">
+            <objects>
+                <viewController id="M4Y-Lb-cyx" customClass="TodayViewController" customModule="KayzrStaffToday" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" simulatedAppContext="notificationCenter" id="S3S-Oj-5AN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="BJ9-eX-o9m">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="tournamentTodayCell" rowHeight="55" id="8kB-TA-PDw" customClass="TournamentTodayCell" customModule="KayzrStaffToday" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="320" height="55"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="8kB-TA-PDw" id="VN4-Mt-T4A">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="54.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PkP-Gl-pEU">
+                                                    <rect key="frame" x="8" y="4" width="304" height="46.5"/>
+                                                    <subviews>
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LOL" translatesAutoresizingMaskIntoConstraints="NO" id="2u3-iR-eus">
+                                                            <rect key="frame" x="0.0" y="0.0" width="50" height="46.5"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="46.5" id="5m8-Bm-gfL"/>
+                                                                <constraint firstAttribute="width" constant="50" id="N9h-nz-xXr"/>
+                                                            </constraints>
+                                                        </imageView>
+                                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="KOH-Ei-8rg">
+                                                            <rect key="frame" x="50" y="0.0" width="254" height="46.5"/>
+                                                            <subviews>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="League of Legends 5V5" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f0n-Pc-kVm">
+                                                                    <rect key="frame" x="36.5" y="0.0" width="181.5" height="22.5"/>
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                    <nil key="textColor"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Begint om: 19h30" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cao-R0-ZJG">
+                                                                    <rect key="frame" x="59.5" y="24.5" width="135" height="22"/>
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                    <nil key="textColor"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                            </subviews>
+                                                        </stackView>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="PkP-Gl-pEU" firstAttribute="top" secondItem="VN4-Mt-T4A" secondAttribute="top" constant="4" id="0ZM-5c-5yH"/>
+                                                <constraint firstAttribute="bottom" secondItem="PkP-Gl-pEU" secondAttribute="bottom" constant="4" id="Xjh-SU-wpI"/>
+                                                <constraint firstItem="PkP-Gl-pEU" firstAttribute="leading" secondItem="VN4-Mt-T4A" secondAttribute="leading" constant="8" id="fSk-ZP-YJA"/>
+                                                <constraint firstAttribute="trailing" secondItem="PkP-Gl-pEU" secondAttribute="trailing" constant="8" id="kuR-De-Tku"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="gameImage" destination="2u3-iR-eus" id="u7h-TX-P6p"/>
+                                            <outlet property="nameLabel" destination="f0n-Pc-kVm" id="qY0-cT-jtn"/>
+                                            <outlet property="starthourLabel" destination="Cao-R0-ZJG" id="hJZ-qw-W3g"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="M4Y-Lb-cyx" id="Tp9-L8-bFR"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="BJ9-eX-o9m" firstAttribute="top" secondItem="ssy-KU-ocm" secondAttribute="top" id="4tG-Ul-OjT"/>
+                            <constraint firstItem="BJ9-eX-o9m" firstAttribute="leading" secondItem="ssy-KU-ocm" secondAttribute="leading" id="Hsg-F4-F5x"/>
+                            <constraint firstItem="ssy-KU-ocm" firstAttribute="bottom" secondItem="BJ9-eX-o9m" secondAttribute="bottom" id="g4S-F4-WY2"/>
+                            <constraint firstItem="ssy-KU-ocm" firstAttribute="trailing" secondItem="BJ9-eX-o9m" secondAttribute="trailing" id="ivz-qN-9Cq"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ssy-KU-ocm"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="150"/>
+                    <connections>
+                        <outlet property="todayTournamentsTable" destination="BJ9-eX-o9m" id="CAx-P5-Lc9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vXp-U4-Rya" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.59999999999999" y="133.13343328335833"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="LOL" width="256" height="256"/>
+    </resources>
+</document>
