@@ -7,7 +7,7 @@
 		<key>KayzrStaff.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>7</integer>
+			<integer>0</integer>
 		</dict>
 		<key>KayzrStaffShared.xcscheme</key>
 		<dict>
@@ -17,12 +17,12 @@
 		<key>KayzrStaffToday.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>8</integer>
+			<integer>1</integer>
 		</dict>
 		<key>KayzrStaff_Shared.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>9</integer>
+			<integer>2</integer>
 		</dict>
 	</dict>
 </dict>
