@@ -4,7 +4,7 @@
 //
 //  Created by Jens Leirens on 05/12/2017.
 //  Copyright © 2017 Jens Leirens. All rights reserved.
-//
+///
 
 import UIKit
 import NotificationCenter
