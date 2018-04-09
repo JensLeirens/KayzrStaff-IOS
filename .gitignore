@@ -1,6 +1,0 @@
-.build
-*.xcodeproj
-
-.DS_Store
-._*
-.Trashes

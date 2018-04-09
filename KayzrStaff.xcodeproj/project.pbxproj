@@ -1,0 +1,1158 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57813FB62787D939F7C2165A /* Pods_KayzrStaffToday.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C40C3DE379F4CF29E97DFF32 /* Pods_KayzrStaffToday.framework */; };
+		6B75677F1FDABC94006FD504 /* KayzrStaff_Shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BFE54BF1FD6AFC0001F127F /* KayzrStaff_Shared.framework */; };
+		6B7567831FDAE186006FD504 /* KayzrStaffAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7567821FDAE186006FD504 /* KayzrStaffAPI.swift */; };
+		6BF6564E1FD6C27700A943B8 /* games.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BF6564D1FD6C27700A943B8 /* games.xcassets */; };
+		6BFE541F1FD69D8A001F127F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFE541E1FD69D8A001F127F /* AppDelegate.swift */; };
+		6BFE54241FD69D8A001F127F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BFE54221FD69D8A001F127F /* Main.storyboard */; };
+		6BFE54261FD69D8A001F127F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BFE54251FD69D8A001F127F /* Assets.xcassets */; };
+		6BFE54291FD69D8A001F127F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BFE54271FD69D8A001F127F /* LaunchScreen.storyboard */; };
+		6BFE547A1FD6A111001F127F /* LoginUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFE54791FD6A111001F127F /* LoginUserViewController.swift */; };
+		6BFE547C1FD6A122001F127F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFE547B1FD6A122001F127F /* HomeViewController.swift */; };
+		6BFE547E1FD6A133001F127F /* ThisWeekViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFE547D1FD6A133001F127F /* ThisWeekViewController.swift */; };
+		6BFE54801FD6A142001F127F /* ThisWeekDayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFE547F1FD6A142001F127F /* ThisWeekDayViewController.swift */; };
+		6BFE54821FD6A157001F127F /* AvailabilityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFE54811FD6A157001F127F /* AvailabilityViewController.swift */; };
+		6BFE54841FD6A164001F127F /* TeamInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFE54831FD6A164001F127F /* TeamInfoViewController.swift */; };
+		6BFE54861FD6A262001F127F /* TournamentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFE54851FD6A262001F127F /* TournamentCell.swift */; };
+		6BFE54881FD6A270001F127F /* AvailabilityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFE54871FD6A270001F127F /* AvailabilityCell.swift */; };
+		6BFE548A1FD6A27D001F127F /* HeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFE54891FD6A27D001F127F /* HeaderCell.swift */; };
+		6BFE548C1FD6A287001F127F /* TeamInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFE548B1FD6A287001F127F /* TeamInfoCell.swift */; };
+		6BFE54A71FD6A78D001F127F /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BFE54A61FD6A78D001F127F /* NotificationCenter.framework */; };
+		6BFE54AA1FD6A78D001F127F /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFE54A91FD6A78D001F127F /* TodayViewController.swift */; };
+		6BFE54AD1FD6A78D001F127F /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BFE54AB1FD6A78D001F127F /* MainInterface.storyboard */; };
+		6BFE54B11FD6A78D001F127F /* KayzrStaffToday.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6BFE54A41FD6A78D001F127F /* KayzrStaffToday.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6BFE54B91FD6AE35001F127F /* TournamentTodayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFE54B81FD6AE35001F127F /* TournamentTodayCell.swift */; };
+		6BFE54C31FD6AFC0001F127F /* KayzrStaff_Shared.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BFE54C11FD6AFC0001F127F /* KayzrStaff_Shared.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6BFE54C71FD6AFC0001F127F /* KayzrStaff_Shared.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6BFE54BF1FD6AFC0001F127F /* KayzrStaff_Shared.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6BFE54CC1FD6AFDE001F127F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFE54711FD6A091001F127F /* User.swift */; };
+		6BFE54CF1FD6AFEE001F127F /* Tournament.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFE54731FD6A09C001F127F /* Tournament.swift */; };
+		6BFE54D01FD6AFEE001F127F /* Availability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFE54751FD6A0B3001F127F /* Availability.swift */; };
+		6BFE54D11FD6AFEE001F127F /* EndWeek.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFE54771FD6A0C0001F127F /* EndWeek.swift */; };
+		6BFE54D21FD6B06B001F127F /* KayzrStaff_Shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BFE54BF1FD6AFC0001F127F /* KayzrStaff_Shared.framework */; };
+		C5DD00057D6893E961FC2252 /* Pods_KayzrStaff_Shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B15CB62DF0C0CD21A1FDB132 /* Pods_KayzrStaff_Shared.framework */; };
+		F5789AED82043E85E975FFE2 /* Pods_KayzrStaff.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A43ADA71A0F0698F37500AF /* Pods_KayzrStaff.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6BFE54301FD69D8A001F127F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BFE54131FD69D8A001F127F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BFE541A1FD69D8A001F127F;
+			remoteInfo = KayzrStaff;
+		};
+		6BFE543B1FD69D8B001F127F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BFE54131FD69D8A001F127F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BFE541A1FD69D8A001F127F;
+			remoteInfo = KayzrStaff;
+		};
+		6BFE54AF1FD6A78D001F127F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BFE54131FD69D8A001F127F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BFE54A31FD6A78D001F127F;
+			remoteInfo = KayzrStaffToday;
+		};
+		6BFE54C41FD6AFC0001F127F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BFE54131FD69D8A001F127F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BFE54BE1FD6AFC0001F127F;
+			remoteInfo = KayzrStaff_Shared;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6BFE549F1FD6A6F3001F127F /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				6BFE54B11FD6A78D001F127F /* KayzrStaffToday.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BFE54CB1FD6AFC0001F127F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6BFE54C71FD6AFC0001F127F /* KayzrStaff_Shared.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0D84CCABB4CCC68B2B49298C /* Pods-KayzrStaff.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KayzrStaff.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KayzrStaff/Pods-KayzrStaff.debug.xcconfig"; sourceTree = "<group>"; };
+		1A43ADA71A0F0698F37500AF /* Pods_KayzrStaff.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KayzrStaff.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B0DFE5C1FD82082003CFEA3 /* Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B0DFE5D1FD82082003CFEA3 /* RealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B0DFE5F1FD82176003CFEA3 /* Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B0DFE611FD8217A003CFEA3 /* RealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B0DFE631FD82204003CFEA3 /* Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B0DFE651FD82223003CFEA3 /* RealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B0DFE671FD8222D003CFEA3 /* Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B386C201FD834850044DCB9 /* KayzrStaff.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KayzrStaff.entitlements; sourceTree = "<group>"; };
+		6B7567821FDAE186006FD504 /* KayzrStaffAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KayzrStaffAPI.swift; sourceTree = "<group>"; };
+		6BF6564D1FD6C27700A943B8 /* games.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = games.xcassets; sourceTree = "<group>"; };
+		6BFE541B1FD69D8A001F127F /* KayzrStaff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KayzrStaff.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BFE541E1FD69D8A001F127F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6BFE54231FD69D8A001F127F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6BFE54251FD69D8A001F127F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6BFE54281FD69D8A001F127F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6BFE542A1FD69D8A001F127F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BFE542F1FD69D8A001F127F /* KayzrStaffTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KayzrStaffTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BFE543A1FD69D8B001F127F /* KayzrStaffUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KayzrStaffUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BFE54711FD6A091001F127F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		6BFE54731FD6A09C001F127F /* Tournament.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tournament.swift; sourceTree = "<group>"; };
+		6BFE54751FD6A0B3001F127F /* Availability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Availability.swift; sourceTree = "<group>"; };
+		6BFE54771FD6A0C0001F127F /* EndWeek.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndWeek.swift; sourceTree = "<group>"; };
+		6BFE54791FD6A111001F127F /* LoginUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUserViewController.swift; sourceTree = "<group>"; };
+		6BFE547B1FD6A122001F127F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		6BFE547D1FD6A133001F127F /* ThisWeekViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThisWeekViewController.swift; sourceTree = "<group>"; };
+		6BFE547F1FD6A142001F127F /* ThisWeekDayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThisWeekDayViewController.swift; sourceTree = "<group>"; };
+		6BFE54811FD6A157001F127F /* AvailabilityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailabilityViewController.swift; sourceTree = "<group>"; };
+		6BFE54831FD6A164001F127F /* TeamInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamInfoViewController.swift; sourceTree = "<group>"; };
+		6BFE54851FD6A262001F127F /* TournamentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TournamentCell.swift; sourceTree = "<group>"; };
+		6BFE54871FD6A270001F127F /* AvailabilityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailabilityCell.swift; sourceTree = "<group>"; };
+		6BFE54891FD6A27D001F127F /* HeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCell.swift; sourceTree = "<group>"; };
+		6BFE548B1FD6A287001F127F /* TeamInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamInfoCell.swift; sourceTree = "<group>"; };
+		6BFE54A41FD6A78D001F127F /* KayzrStaffToday.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = KayzrStaffToday.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BFE54A61FD6A78D001F127F /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		6BFE54A91FD6A78D001F127F /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		6BFE54AC1FD6A78D001F127F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		6BFE54AE1FD6A78D001F127F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BFE54B51FD6A959001F127F /* KayzrStaffToday.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KayzrStaffToday.entitlements; sourceTree = "<group>"; };
+		6BFE54B81FD6AE35001F127F /* TournamentTodayCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TournamentTodayCell.swift; sourceTree = "<group>"; };
+		6BFE54BF1FD6AFC0001F127F /* KayzrStaff_Shared.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KayzrStaff_Shared.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BFE54C11FD6AFC0001F127F /* KayzrStaff_Shared.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KayzrStaff_Shared.h; sourceTree = "<group>"; };
+		6BFE54C21FD6AFC0001F127F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72AC5EA54E164E439F17D533 /* Pods-KayzrStaff.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KayzrStaff.release.xcconfig"; path = "Pods/Target Support Files/Pods-KayzrStaff/Pods-KayzrStaff.release.xcconfig"; sourceTree = "<group>"; };
+		77E919739C6179452601CCD2 /* Pods-KayzrStaffToday.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KayzrStaffToday.release.xcconfig"; path = "Pods/Target Support Files/Pods-KayzrStaffToday/Pods-KayzrStaffToday.release.xcconfig"; sourceTree = "<group>"; };
+		A09B0D184042ECB516C4F149 /* Pods-KayzrStaffToday.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KayzrStaffToday.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KayzrStaffToday/Pods-KayzrStaffToday.debug.xcconfig"; sourceTree = "<group>"; };
+		B15CB62DF0C0CD21A1FDB132 /* Pods_KayzrStaff_Shared.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KayzrStaff_Shared.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C40C3DE379F4CF29E97DFF32 /* Pods_KayzrStaffToday.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KayzrStaffToday.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF5DDDDDFE086DEA0DC15119 /* Pods-KayzrStaff_Shared.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KayzrStaff_Shared.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KayzrStaff_Shared/Pods-KayzrStaff_Shared.debug.xcconfig"; sourceTree = "<group>"; };
+		F8F30F2BCA96B2B5C2E65A0A /* Pods-KayzrStaff_Shared.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KayzrStaff_Shared.release.xcconfig"; path = "Pods/Target Support Files/Pods-KayzrStaff_Shared/Pods-KayzrStaff_Shared.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BFE54181FD69D8A001F127F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5789AED82043E85E975FFE2 /* Pods_KayzrStaff.framework in Frameworks */,
+				6B75677F1FDABC94006FD504 /* KayzrStaff_Shared.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BFE542C1FD69D8A001F127F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BFE54371FD69D8B001F127F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BFE54A11FD6A78D001F127F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BFE54D21FD6B06B001F127F /* KayzrStaff_Shared.framework in Frameworks */,
+				6BFE54A71FD6A78D001F127F /* NotificationCenter.framework in Frameworks */,
+				57813FB62787D939F7C2165A /* Pods_KayzrStaffToday.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BFE54BB1FD6AFC0001F127F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5DD00057D6893E961FC2252 /* Pods_KayzrStaff_Shared.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6074E426CBE086FA2504107D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0D84CCABB4CCC68B2B49298C /* Pods-KayzrStaff.debug.xcconfig */,
+				72AC5EA54E164E439F17D533 /* Pods-KayzrStaff.release.xcconfig */,
+				A09B0D184042ECB516C4F149 /* Pods-KayzrStaffToday.debug.xcconfig */,
+				77E919739C6179452601CCD2 /* Pods-KayzrStaffToday.release.xcconfig */,
+				DF5DDDDDFE086DEA0DC15119 /* Pods-KayzrStaff_Shared.debug.xcconfig */,
+				F8F30F2BCA96B2B5C2E65A0A /* Pods-KayzrStaff_Shared.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6B0A469E1FD748E50025F343 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				6B7567821FDAE186006FD504 /* KayzrStaffAPI.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		6BFE54121FD69D8A001F127F = {
+			isa = PBXGroup;
+			children = (
+				6BFE541D1FD69D8A001F127F /* KayzrStaff */,
+				6BFE54A81FD6A78D001F127F /* KayzrStaffToday */,
+				6BFE54C01FD6AFC0001F127F /* KayzrStaff_Shared */,
+				6BFE54A51FD6A78D001F127F /* Frameworks */,
+				6BFE541C1FD69D8A001F127F /* Products */,
+				6074E426CBE086FA2504107D /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		6BFE541C1FD69D8A001F127F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BFE541B1FD69D8A001F127F /* KayzrStaff.app */,
+				6BFE542F1FD69D8A001F127F /* KayzrStaffTests.xctest */,
+				6BFE543A1FD69D8B001F127F /* KayzrStaffUITests.xctest */,
+				6BFE54A41FD6A78D001F127F /* KayzrStaffToday.appex */,
+				6BFE54BF1FD6AFC0001F127F /* KayzrStaff_Shared.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BFE541D1FD69D8A001F127F /* KayzrStaff */ = {
+			isa = PBXGroup;
+			children = (
+				6B386C201FD834850044DCB9 /* KayzrStaff.entitlements */,
+				6BFE546F1FD6A069001F127F /* ViewControllers */,
+				6BFE546E1FD6A03B001F127F /* Views */,
+				6BFE541E1FD69D8A001F127F /* AppDelegate.swift */,
+				6BFE54221FD69D8A001F127F /* Main.storyboard */,
+				6BFE54271FD69D8A001F127F /* LaunchScreen.storyboard */,
+				6BFE542A1FD69D8A001F127F /* Info.plist */,
+			);
+			path = KayzrStaff;
+			sourceTree = "<group>";
+		};
+		6BFE546E1FD6A03B001F127F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6BFE54851FD6A262001F127F /* TournamentCell.swift */,
+				6BFE54871FD6A270001F127F /* AvailabilityCell.swift */,
+				6BFE54891FD6A27D001F127F /* HeaderCell.swift */,
+				6BFE548B1FD6A287001F127F /* TeamInfoCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6BFE546F1FD6A069001F127F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6BFE54791FD6A111001F127F /* LoginUserViewController.swift */,
+				6BFE547B1FD6A122001F127F /* HomeViewController.swift */,
+				6BFE547D1FD6A133001F127F /* ThisWeekViewController.swift */,
+				6BFE547F1FD6A142001F127F /* ThisWeekDayViewController.swift */,
+				6BFE54811FD6A157001F127F /* AvailabilityViewController.swift */,
+				6BFE54831FD6A164001F127F /* TeamInfoViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		6BFE54701FD6A07B001F127F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6BFE54711FD6A091001F127F /* User.swift */,
+				6BFE54731FD6A09C001F127F /* Tournament.swift */,
+				6BFE54751FD6A0B3001F127F /* Availability.swift */,
+				6BFE54771FD6A0C0001F127F /* EndWeek.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6BFE54A51FD6A78D001F127F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B0DFE671FD8222D003CFEA3 /* Realm.framework */,
+				6B0DFE651FD82223003CFEA3 /* RealmSwift.framework */,
+				6B0DFE631FD82204003CFEA3 /* Realm.framework */,
+				6B0DFE611FD8217A003CFEA3 /* RealmSwift.framework */,
+				6B0DFE5F1FD82176003CFEA3 /* Realm.framework */,
+				6B0DFE5C1FD82082003CFEA3 /* Realm.framework */,
+				6B0DFE5D1FD82082003CFEA3 /* RealmSwift.framework */,
+				6BFE54A61FD6A78D001F127F /* NotificationCenter.framework */,
+				1A43ADA71A0F0698F37500AF /* Pods_KayzrStaff.framework */,
+				C40C3DE379F4CF29E97DFF32 /* Pods_KayzrStaffToday.framework */,
+				B15CB62DF0C0CD21A1FDB132 /* Pods_KayzrStaff_Shared.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6BFE54A81FD6A78D001F127F /* KayzrStaffToday */ = {
+			isa = PBXGroup;
+			children = (
+				6BFE54B51FD6A959001F127F /* KayzrStaffToday.entitlements */,
+				6BFE54A91FD6A78D001F127F /* TodayViewController.swift */,
+				6BFE54AB1FD6A78D001F127F /* MainInterface.storyboard */,
+				6BFE54AE1FD6A78D001F127F /* Info.plist */,
+				6BFE54B81FD6AE35001F127F /* TournamentTodayCell.swift */,
+				6BF6564D1FD6C27700A943B8 /* games.xcassets */,
+			);
+			path = KayzrStaffToday;
+			sourceTree = "<group>";
+		};
+		6BFE54C01FD6AFC0001F127F /* KayzrStaff_Shared */ = {
+			isa = PBXGroup;
+			children = (
+				6B0A469E1FD748E50025F343 /* Services */,
+				6BFE54701FD6A07B001F127F /* Models */,
+				6BFE54C11FD6AFC0001F127F /* KayzrStaff_Shared.h */,
+				6BFE54251FD69D8A001F127F /* Assets.xcassets */,
+				6BFE54C21FD6AFC0001F127F /* Info.plist */,
+			);
+			path = KayzrStaff_Shared;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6BFE54BC1FD6AFC0001F127F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BFE54C31FD6AFC0001F127F /* KayzrStaff_Shared.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6BFE541A1FD69D8A001F127F /* KayzrStaff */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BFE54431FD69D8B001F127F /* Build configuration list for PBXNativeTarget "KayzrStaff" */;
+			buildPhases = (
+				1A0FCC16F4A51F4AF7D2E7D4 /* [CP] Check Pods Manifest.lock */,
+				6BFE54171FD69D8A001F127F /* Sources */,
+				6BFE54181FD69D8A001F127F /* Frameworks */,
+				6BFE54191FD69D8A001F127F /* Resources */,
+				6BFE549F1FD6A6F3001F127F /* Embed App Extensions */,
+				6BFE54CB1FD6AFC0001F127F /* Embed Frameworks */,
+				D9A91134A21DA22333E2CA29 /* [CP] Embed Pods Frameworks */,
+				0A16BB01D53CB5DCD2E111D7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BFE54B01FD6A78D001F127F /* PBXTargetDependency */,
+				6BFE54C51FD6AFC0001F127F /* PBXTargetDependency */,
+			);
+			name = KayzrStaff;
+			productName = KayzrStaff;
+			productReference = 6BFE541B1FD69D8A001F127F /* KayzrStaff.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6BFE542E1FD69D8A001F127F /* KayzrStaffTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BFE54461FD69D8B001F127F /* Build configuration list for PBXNativeTarget "KayzrStaffTests" */;
+			buildPhases = (
+				6BFE542B1FD69D8A001F127F /* Sources */,
+				6BFE542C1FD69D8A001F127F /* Frameworks */,
+				6BFE542D1FD69D8A001F127F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BFE54311FD69D8A001F127F /* PBXTargetDependency */,
+			);
+			name = KayzrStaffTests;
+			productName = KayzrStaffTests;
+			productReference = 6BFE542F1FD69D8A001F127F /* KayzrStaffTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6BFE54391FD69D8B001F127F /* KayzrStaffUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BFE54491FD69D8B001F127F /* Build configuration list for PBXNativeTarget "KayzrStaffUITests" */;
+			buildPhases = (
+				6BFE54361FD69D8B001F127F /* Sources */,
+				6BFE54371FD69D8B001F127F /* Frameworks */,
+				6BFE54381FD69D8B001F127F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BFE543C1FD69D8B001F127F /* PBXTargetDependency */,
+			);
+			name = KayzrStaffUITests;
+			productName = KayzrStaffUITests;
+			productReference = 6BFE543A1FD69D8B001F127F /* KayzrStaffUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		6BFE54A31FD6A78D001F127F /* KayzrStaffToday */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BFE54B21FD6A78D001F127F /* Build configuration list for PBXNativeTarget "KayzrStaffToday" */;
+			buildPhases = (
+				024B89D1D8E4E945DFDD6B3B /* [CP] Check Pods Manifest.lock */,
+				6BFE54A01FD6A78D001F127F /* Sources */,
+				6BFE54A11FD6A78D001F127F /* Frameworks */,
+				6BFE54A21FD6A78D001F127F /* Resources */,
+				8AB2947483AE5851E8FC8644 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KayzrStaffToday;
+			productName = KayzrStaffToday;
+			productReference = 6BFE54A41FD6A78D001F127F /* KayzrStaffToday.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		6BFE54BE1FD6AFC0001F127F /* KayzrStaff_Shared */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BFE54C81FD6AFC0001F127F /* Build configuration list for PBXNativeTarget "KayzrStaff_Shared" */;
+			buildPhases = (
+				7E6141270E6AE8B9F471B85D /* [CP] Check Pods Manifest.lock */,
+				6BFE54BA1FD6AFC0001F127F /* Sources */,
+				6BFE54BB1FD6AFC0001F127F /* Frameworks */,
+				6BFE54BC1FD6AFC0001F127F /* Headers */,
+				6BFE54BD1FD6AFC0001F127F /* Resources */,
+				AC4A0D9BD53B97D42831D236 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KayzrStaff_Shared;
+			productName = KayzrStaff_Shared;
+			productReference = 6BFE54BF1FD6AFC0001F127F /* KayzrStaff_Shared.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BFE54131FD69D8A001F127F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Jens Leirens";
+				TargetAttributes = {
+					6BFE541A1FD69D8A001F127F = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					6BFE542E1FD69D8A001F127F = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6BFE541A1FD69D8A001F127F;
+					};
+					6BFE54391FD69D8B001F127F = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6BFE541A1FD69D8A001F127F;
+					};
+					6BFE54A31FD6A78D001F127F = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					6BFE54BE1FD6AFC0001F127F = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6BFE54161FD69D8A001F127F /* Build configuration list for PBXProject "KayzrStaff" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6BFE54121FD69D8A001F127F;
+			productRefGroup = 6BFE541C1FD69D8A001F127F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BFE541A1FD69D8A001F127F /* KayzrStaff */,
+				6BFE542E1FD69D8A001F127F /* KayzrStaffTests */,
+				6BFE54391FD69D8B001F127F /* KayzrStaffUITests */,
+				6BFE54A31FD6A78D001F127F /* KayzrStaffToday */,
+				6BFE54BE1FD6AFC0001F127F /* KayzrStaff_Shared */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BFE54191FD69D8A001F127F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BFE54291FD69D8A001F127F /* LaunchScreen.storyboard in Resources */,
+				6BFE54261FD69D8A001F127F /* Assets.xcassets in Resources */,
+				6BFE54241FD69D8A001F127F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BFE542D1FD69D8A001F127F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BFE54381FD69D8B001F127F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BFE54A21FD6A78D001F127F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BFE54AD1FD6A78D001F127F /* MainInterface.storyboard in Resources */,
+				6BF6564E1FD6C27700A943B8 /* games.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BFE54BD1FD6AFC0001F127F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		024B89D1D8E4E945DFDD6B3B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KayzrStaffToday-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0A16BB01D53CB5DCD2E111D7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KayzrStaff/Pods-KayzrStaff-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1A0FCC16F4A51F4AF7D2E7D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KayzrStaff-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E6141270E6AE8B9F471B85D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KayzrStaff_Shared-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AB2947483AE5851E8FC8644 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KayzrStaffToday/Pods-KayzrStaffToday-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC4A0D9BD53B97D42831D236 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KayzrStaff_Shared/Pods-KayzrStaff_Shared-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9A91134A21DA22333E2CA29 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-KayzrStaff/Pods-KayzrStaff-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KayzrStaff/Pods-KayzrStaff-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BFE54171FD69D8A001F127F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BFE547A1FD6A111001F127F /* LoginUserViewController.swift in Sources */,
+				6BFE54881FD6A270001F127F /* AvailabilityCell.swift in Sources */,
+				6BFE547E1FD6A133001F127F /* ThisWeekViewController.swift in Sources */,
+				6BFE54861FD6A262001F127F /* TournamentCell.swift in Sources */,
+				6BFE548A1FD6A27D001F127F /* HeaderCell.swift in Sources */,
+				6BFE54841FD6A164001F127F /* TeamInfoViewController.swift in Sources */,
+				6BFE547C1FD6A122001F127F /* HomeViewController.swift in Sources */,
+				6BFE54801FD6A142001F127F /* ThisWeekDayViewController.swift in Sources */,
+				6BFE54821FD6A157001F127F /* AvailabilityViewController.swift in Sources */,
+				6BFE541F1FD69D8A001F127F /* AppDelegate.swift in Sources */,
+				6BFE548C1FD6A287001F127F /* TeamInfoCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BFE542B1FD69D8A001F127F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BFE54361FD69D8B001F127F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BFE54A01FD6A78D001F127F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BFE54B91FD6AE35001F127F /* TournamentTodayCell.swift in Sources */,
+				6BFE54AA1FD6A78D001F127F /* TodayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BFE54BA1FD6AFC0001F127F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BFE54D01FD6AFEE001F127F /* Availability.swift in Sources */,
+				6BFE54CF1FD6AFEE001F127F /* Tournament.swift in Sources */,
+				6BFE54CC1FD6AFDE001F127F /* User.swift in Sources */,
+				6B7567831FDAE186006FD504 /* KayzrStaffAPI.swift in Sources */,
+				6BFE54D11FD6AFEE001F127F /* EndWeek.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6BFE54311FD69D8A001F127F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BFE541A1FD69D8A001F127F /* KayzrStaff */;
+			targetProxy = 6BFE54301FD69D8A001F127F /* PBXContainerItemProxy */;
+		};
+		6BFE543C1FD69D8B001F127F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BFE541A1FD69D8A001F127F /* KayzrStaff */;
+			targetProxy = 6BFE543B1FD69D8B001F127F /* PBXContainerItemProxy */;
+		};
+		6BFE54B01FD6A78D001F127F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BFE54A31FD6A78D001F127F /* KayzrStaffToday */;
+			targetProxy = 6BFE54AF1FD6A78D001F127F /* PBXContainerItemProxy */;
+		};
+		6BFE54C51FD6AFC0001F127F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BFE54BE1FD6AFC0001F127F /* KayzrStaff_Shared */;
+			targetProxy = 6BFE54C41FD6AFC0001F127F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6BFE54221FD69D8A001F127F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BFE54231FD69D8A001F127F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6BFE54271FD69D8A001F127F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BFE54281FD69D8A001F127F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6BFE54AB1FD6A78D001F127F /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BFE54AC1FD6A78D001F127F /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6BFE54411FD69D8B001F127F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+			};
+			name = Debug;
+		};
+		6BFE54421FD69D8B001F127F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6BFE54441FD69D8B001F127F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D84CCABB4CCC68B2B49298C /* Pods-KayzrStaff.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KayzrStaff/KayzrStaff.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3VJFXM46G9;
+				INFOPLIST_FILE = KayzrStaff/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mafken.KayzrStaff;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6BFE54451FD69D8B001F127F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72AC5EA54E164E439F17D533 /* Pods-KayzrStaff.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KayzrStaff/KayzrStaff.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3VJFXM46G9;
+				INFOPLIST_FILE = KayzrStaff/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mafken.KayzrStaff;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6BFE54471FD69D8B001F127F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3VJFXM46G9;
+				INFOPLIST_FILE = KayzrStaffTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mafken.KayzrStaffTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KayzrStaff.app/KayzrStaff";
+			};
+			name = Debug;
+		};
+		6BFE54481FD69D8B001F127F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3VJFXM46G9;
+				INFOPLIST_FILE = KayzrStaffTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mafken.KayzrStaffTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KayzrStaff.app/KayzrStaff";
+			};
+			name = Release;
+		};
+		6BFE544A1FD69D8B001F127F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3VJFXM46G9;
+				INFOPLIST_FILE = KayzrStaffUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mafken.KayzrStaffUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KayzrStaff;
+			};
+			name = Debug;
+		};
+		6BFE544B1FD69D8B001F127F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3VJFXM46G9;
+				INFOPLIST_FILE = KayzrStaffUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mafken.KayzrStaffUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KayzrStaff;
+			};
+			name = Release;
+		};
+		6BFE54B31FD6A78D001F127F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A09B0D184042ECB516C4F149 /* Pods-KayzrStaffToday.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = KayzrStaffToday/KayzrStaffToday.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3VJFXM46G9;
+				INFOPLIST_FILE = KayzrStaffToday/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mafken.KayzrStaff.KayzrStaffToday;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6BFE54B41FD6A78D001F127F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77E919739C6179452601CCD2 /* Pods-KayzrStaffToday.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = KayzrStaffToday/KayzrStaffToday.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3VJFXM46G9;
+				INFOPLIST_FILE = KayzrStaffToday/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mafken.KayzrStaff.KayzrStaffToday;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6BFE54C91FD6AFC0001F127F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF5DDDDDFE086DEA0DC15119 /* Pods-KayzrStaff_Shared.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 3VJFXM46G9;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = KayzrStaff_Shared/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mafken.KayzrStaff-Shared";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6BFE54CA1FD6AFC0001F127F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8F30F2BCA96B2B5C2E65A0A /* Pods-KayzrStaff_Shared.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 3VJFXM46G9;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = KayzrStaff_Shared/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mafken.KayzrStaff-Shared";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BFE54161FD69D8A001F127F /* Build configuration list for PBXProject "KayzrStaff" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BFE54411FD69D8B001F127F /* Debug */,
+				6BFE54421FD69D8B001F127F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BFE54431FD69D8B001F127F /* Build configuration list for PBXNativeTarget "KayzrStaff" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BFE54441FD69D8B001F127F /* Debug */,
+				6BFE54451FD69D8B001F127F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BFE54461FD69D8B001F127F /* Build configuration list for PBXNativeTarget "KayzrStaffTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BFE54471FD69D8B001F127F /* Debug */,
+				6BFE54481FD69D8B001F127F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BFE54491FD69D8B001F127F /* Build configuration list for PBXNativeTarget "KayzrStaffUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BFE544A1FD69D8B001F127F /* Debug */,
+				6BFE544B1FD69D8B001F127F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BFE54B21FD6A78D001F127F /* Build configuration list for PBXNativeTarget "KayzrStaffToday" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BFE54B31FD6A78D001F127F /* Debug */,
+				6BFE54B41FD6A78D001F127F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BFE54C81FD6AFC0001F127F /* Build configuration list for PBXNativeTarget "KayzrStaff_Shared" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BFE54C91FD6AFC0001F127F /* Debug */,
+				6BFE54CA1FD6AFC0001F127F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BFE54131FD69D8A001F127F /* Project object */;
+}

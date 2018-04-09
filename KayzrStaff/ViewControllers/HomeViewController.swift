@@ -7,7 +7,7 @@ class HomeViewController: UIViewController {
     private var tournamentTask: URLSessionTask?
     var user: User!
     var tournamentsToModerate: [Tournament] = []
- 
+ //
     override func viewDidLoad() {
         tournamentTask?.cancel()
         tournamentTask = KayzrStaffAPI.getTournamentsThisWeek() {
